@@ -12,17 +12,20 @@
 |[dotnet/dotnet-api-docs](https://github.com/dotnet/dotnet-api-docs) |.NET API documentation|
 |[dotnet/project-system](https://github.com/dotnet/project-system) |Visual Studio project system for C#, F#, & VB|
 |[dotnet/sdk](https://github.com/dotnet/sdk)                       |.NET Core SDK (used by Visual Studio & .NET Core CLI)|
+|[dotnet/installer](https://github.com/dotnet/installer)           |.NET Core installer (produces zips, tarballs, and installers for the .NET SDK)
 |[dotnet/extensions](https://github.com/dotnet/extensions)         |.NET extension APIs (DI, logging, configuration, etc.)|
 |[dotnet/dotnet-docker](https://github.com/dotnet/dotnet-docker)   |.NET Core Docker images|
 |[dotnet/templating](https://github.com/dotnet/templating)         |Templating engine used by `dotnet new`|
+|[dotnet/test-templates](https://github.com/dotnet/test-templates) |.NET Core unit testing project templates|
 |[dotnet/winforms](https://github.com/dotnet/winforms)             |Windows Forms|
 |[dotnet/wpf](https://github.com/dotnet/wpf)                       |Windows Presentation Foundation (WPF)|
+|[dotnet/maui](https://github.com/dotnet/maui)                     |.NET Multi-platform App UI|
 
 ## .NET Framework
 
 |Repository                                                        |Description |
 |------------------------------------------------------------------|------------|
-|[microsoft/dotnet](https://github.com/microsoft/dotnet) |Catch-all repository for .NET (where most .NET Framework issues are filed)|
+|[Dev Community](https://developercommunity.visualstudio.com/spaces/61/index.html) |Report isssues to .NET Framework Developer Community|
 |[microsoft/dotnet-framework-docker](https://github.com/microsoft/dotnet-framework-docker) |.NET Framework Docker images|
 
 ## .NET Standard
@@ -45,7 +48,7 @@
 
 |Repository                                               |Description                            |
 |---------------------------------------------------------|---------------------------------------|
-|[microsoft/msbuild](https://github.com/microsoft/msbuild)|Build platform for .NET & Visual Studio|
+|[dotnet/msbuild](https://github.com/dotnet/msbuild)      |Build platform for .NET & Visual Studio|
 
 ## Entity Framework and data access
 

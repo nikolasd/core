@@ -16,7 +16,7 @@ For more advanced IL Linker instructions, see [Using IL Linker Advanced Features
 
 ## Instructions
 
-The instructions assume you are using [.NET Core 2.0](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) or [.NET Core daily builds](https://github.com/dotnet/core/blob/master/daily-builds.md). You can validate your .NET Core SDK version by typing `dotnet --version`.
+The instructions assume you are using [.NET Core 2.0](https://github.com/dotnet/core/blob/main/release-notes/download-archive.md) or [.NET Core daily builds](https://github.com/dotnet/core/blob/main/daily-builds.md). You can validate your .NET Core SDK version by typing `dotnet --version`.
 
 1. Select a project to test with. If you don't have one, you can do one of the following:
    * Create one with `dotnet new console -o testapp`; `cd testapp`, or
@@ -42,7 +42,7 @@ The linker can be controlled with the following commandline switches.
 * `/p:LinkDuringPublish=false` -- Disable the linker.
 * `/p:ShowLinkerSizeComparison=true` -- Displays a table of size reductions for the application.
 
-You must disable the linker if you want to publish a [framework dependent application](https://docs.microsoft.com/en-us/dotnet/core/deploying/) while you have ILLink.Tasks as a dependency. This behavior will be changed in a later release.
+You must disable the linker if you want to publish a [framework dependent application](https://docs.microsoft.com/dotnet/core/deploying/) while you have ILLink.Tasks as a dependency. This behavior will be changed in a later release.
 
 ## Determining Code Size Reduction
 

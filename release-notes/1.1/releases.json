@@ -6,7 +6,7 @@
   "latest-sdk": "1.1.14",
   "support-phase": "eol",
   "eol-date": "2019-06-27",
-  "lifecycle-policy": "https://www.microsoft.com/net/support/policy",
+  "lifecycle-policy": "https://dotnet.microsoft.com/platform/support/policy/",
   "releases": [
     {
       "release-date": "2019-05-14",
@@ -26,7 +26,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0981"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.13/1.1.13.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.13/1.1.13.md",
       "runtime": {
         "version": "1.1.13",
         "version-display": "1.1.13",
@@ -130,8 +130,8 @@
         "runtime-version": "1.1.13",
         "vs-version": "15.0",
         "vs-support": null,
-        "csharp-version": null,
-        "fsharp-version": null,
+        "csharp-version": "",
+        "fsharp-version": "",
         "vb-version": null,
         "files": [
           {
@@ -274,7 +274,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0757"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.12/1.1.12.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.12/1.1.12.md",
       "runtime": {
         "version": "1.1.12",
         "version-display": "1.1.12",
@@ -377,8 +377,8 @@
         "version-display": "1.1.13",
         "runtime-version": "1.1.12",
         "vs-version": "15.0.22",
-        "csharp-version": null,
-        "fsharp-version": null,
+        "csharp-version": "",
+        "fsharp-version": "",
         "vb-version": "15.0",
         "files": [
           {
@@ -515,7 +515,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0657"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.11/1.1.11.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.11/1.1.11.md",
       "runtime": {
         "version": "1.1.11",
         "version-display": "1.1.11",
@@ -612,8 +612,8 @@
         "version-display": "1.1.12",
         "runtime-version": "1.1.11",
         "vs-version": "15.0",
-        "csharp-version": null,
-        "fsharp-version": null,
+        "csharp-version": "",
+        "fsharp-version": "",
         "vb-version": "15.0",
         "files": [
           {
@@ -756,7 +756,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8292"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.10.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.10.md",
       "runtime": {
         "version": "1.1.10",
         "version-display": "1.1.10",
@@ -882,7 +882,7 @@
         "version": "1.1.11",
         "version-display": "1.1.11",
         "runtime-version": "1.1.10",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -1015,7 +1015,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8356"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.9.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.9.md",
       "runtime": {
         "version": "1.1.9",
         "version-display": "1.1.9",
@@ -1117,7 +1117,7 @@
         "version": "1.1.10",
         "version-display": "1.1.10",
         "runtime-version": "1.1.9",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -1235,7 +1235,7 @@
       "release-version": "1.1.8",
       "security": false,
       "cve-list": null,
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.8.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.8.md",
       "runtime": {
         "version": "1.1.8",
         "version-display": "1.1.8",
@@ -1410,7 +1410,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0808"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.7.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.7.md",
       "runtime": {
         "version": "1.1.7",
         "version-display": "1.1.7",
@@ -1482,7 +1482,7 @@
         "version": "1.1.8",
         "version-display": "1.1.8",
         "runtime-version": "1.1.7",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -1583,7 +1583,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0784"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.6.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.6.md",
       "runtime": {
         "version": "1.1.6",
         "version-display": "1.1.6",
@@ -1655,7 +1655,7 @@
         "version": "1.1.7",
         "version-display": "1.1.7",
         "runtime-version": "1.1.6",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -1822,7 +1822,7 @@
         "version": "1.1.5",
         "version-display": "1.1.5",
         "runtime-version": "1.1.5",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -1890,7 +1890,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8585"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.4.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.4.md",
       "runtime": {
         "version": "1.1.4",
         "version-display": "1.1.4",
@@ -1950,7 +1950,7 @@
         "version": "1.1.4",
         "version-display": "1.1.4",
         "runtime-version": "1.1.4",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -2031,7 +2031,7 @@
           "cve-url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0247"
         }
       ],
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.2.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.2.md",
       "runtime": {
         "version": "1.1.2",
         "version-display": "1.1.2",
@@ -2202,7 +2202,7 @@
       "release-version": "1.1.1",
       "security": false,
       "cve-list": null,
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.1.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.1.md",
       "runtime": {
         "version": "1.1.1",
         "version-display": "1.1.1",
@@ -2286,7 +2286,7 @@
         "version": "1.0.1",
         "version-display": "1.0.1",
         "runtime-version": "1.1.1",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,
@@ -2373,7 +2373,7 @@
       "release-version": "1.1.0",
       "security": false,
       "cve-list": null,
-      "release-notes": "https://github.com/dotnet/core/blob/master/release-notes/1.1/1.1.md",
+      "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/1.1/1.1.md",
       "runtime": {
         "version": "1.1.0",
         "version-display": "1.1.0",
@@ -2457,7 +2457,7 @@
         "version": "1.0.0-preview2.1-003177",
         "version-display": "1.0.0-preview2",
         "runtime-version": "1.1.0",
-        "vs-version": null,
+        "vs-version": "",
         "csharp-version": null,
         "fsharp-version": null,
         "vb-version": null,

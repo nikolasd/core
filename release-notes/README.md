@@ -1,29 +1,27 @@
-# .NET Core Release Notes
+# .NET Release Notes
 
-The latest supported release is [.NET Core 3.1](3.1).
+The following [.NET releases](../releases.md) are currently supported:
 
-## Latest Updates
+|  Version  | Release Date | Support | Latest Patch Version | End of Support |
+| :-- | :-- | :-- | :-- | :-- |
+| [.NET 6](6.0/README.md) | [November, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-3/) | [Preview][policies] | [6.0 Preview 3][6.0 Preview 3] | November, 2024 |
+| [.NET 5](5.0/README.md) | [November 10, 2020](https://devblogs.microsoft.com/dotnet/announcing-net-5-0/) | [Current][policies] | [5.0.6][5.0.6] | February, 2022 |
+| [.NET Core 3.1](3.1/README.md) | [December 3, 2019](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/) | [LTS][policies] | [3.1.15][3.1.15] | December 3, 2022 |
+| [.NET Core 2.1](2.1/README.md) | [May 30, 2018](https://devblogs.microsoft.com/dotnet/announcing-net-core-2-1/) | [LTS][policies] | [2.1.28][2.1.28] | August 21, 2021 |
 
-You can download the latest updates for .NET Core.
+You can find release notes for all releases, including out-of-support releases, in the [release-notes](.) directory.
 
-* [.NET 5.0 Preview 7](5.0/preview/5.0.0-preview.7.md)
-* [.NET Core 3.1.6](3.1/3.1.6/3.1.6.md)
-* [.NET Core 2.1.20](2.1/2.1.20/2.1.20.md)
-
+[6.0 Preview 3]: 6.0/preview/6.0.0-preview.3.md
+[5.0.6]: 5.0/5.0.6/5.0.6.md
+[3.1.15]: 3.1/3.1.15/3.1.15.md
+[2.1.28]: 2.1/2.1.28/2.1.28.md
 
 ## Release Information
 
-* [.NET Core Releases](download-archive.md) -- Release notes and downloads
+* [Download .NET](https://dotnet.microsoft.com/download/dotnet)
 * [Releases Index][releases-index.json] -- Index for all release channels in JSON format
-* [5.0 Release Details][5.0-releases.json] -- All releases details for the 5.0 channel in JSON format
-* [3.1 Release Details][3.1-releases.json] -- All releases details for the 3.1 channel in JSON format
-* [2.1 Release Details][2.1-releases.json] -- All releases details for the 2.1 channel in JSON format
-
-## See also
-
-* [.NET Core SDK telemetry](https://docs.microsoft.com/dotnet/core/tools/telemetry)
+* [dotnet-install scripts](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script)
+* [Installation docs](https://docs.microsoft.com/dotnet/core/install/)
 
 [releases-index.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json
-[5.0-releases.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/5.0/releases.json
-[3.1-releases.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/3.1/releases.json
-[2.1-releases.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/2.1/releases.json
+[policies]: ../release-policies.md
