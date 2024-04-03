@@ -4,25 +4,24 @@ The following [.NET releases](../releases.md) are currently supported:
 
 |  Version  | Release Date | Support | Latest Patch Version | End of Support |
 | :-- | :-- | :-- | :-- | :-- |
-| [.NET 7](7.0/README.md) | [November, 2022](https://devblogs.microsoft.com/dotnet/announcing-net-7-preview-1/) | [Preview][policies] | [7.0 Preview 1][7.0 Preview 1] | November, 2023 |
-| [.NET 6](6.0/README.md) | [November, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6/) | [LTS][policies] | [6.0.2][6.0.2]  | November 08, 2024 |
-| [.NET 5](5.0/README.md) | [November 10, 2020](https://devblogs.microsoft.com/dotnet/announcing-net-5-0/) | [Current][policies] | [5.0.14][5.0.14] | May 08, 2022 |
-| [.NET Core 3.1](3.1/README.md) | [December 3, 2019](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/) | [LTS][policies] | [3.1.22][3.1.22] | December 3, 2022 |
+| [.NET 9](9.0/README.md) | November 12, 2024 | [STS][policies] | [9.0.0-preview.2][9.0.0-preview.2] |  |
+| [.NET 8](8.0/README.md) | [November 14, 2023](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) | [LTS][policies] | [8.0.3][8.0.3] | November 10, 2026 |
+| [.NET 7](7.0/README.md) | [November 8, 2022](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/) | [STS][policies] | [7.0.17][7.0.17] | May 14, 2024 |
+| [.NET 6](6.0/README.md) | [November 8, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6/) | [LTS][policies] | [6.0.28][6.0.28]  | November 12, 2024 |
 
 You can find release notes for all releases, including out-of-support releases, in the [release-notes](.) directory.
 
-[7.0 Preview 1]: 7.0/preview/7.0.0-preview.1.md
-[6.0.2]: 6.0/6.0.2/6.0.2.md
-[5.0.14]: 5.0/5.0.14/5.0.14.md
-[3.1.22]: 3.1/3.1.22/3.1.22.md
-
+[9.0.0-preview.2]: 9.0/preview/preview2/9.0.0-preview.2.md
+[8.0.3]: 8.0/8.0.3/8.0.3.md
+[7.0.17]: 7.0/7.0.17/7.0.17.md
+[6.0.28]: 6.0/6.0.28/6.0.28.md
 
 ## Release Information
 
 * [Download .NET](https://dotnet.microsoft.com/download/dotnet)
 * [Releases Index][releases-index.json] -- Index for all release channels in JSON format
-* [dotnet-install scripts](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script)
-* [Installation docs](https://docs.microsoft.com/dotnet/core/install/)
+* [dotnet-install scripts](https://learn.microsoft.com/dotnet/core/tools/dotnet-install-script)
+* [Installation docs](https://learn.microsoft.com/dotnet/core/install/)
 
 [releases-index.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json
 [policies]: ../release-policies.md

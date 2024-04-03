@@ -1,6 +1,6 @@
 # .NET 7 installation instructions
 
-Concise install instructions are provided in this document and may be augmented in [release notes](README.md) for a given update. Complete [.NET installation instructions for Windows, macOS, and Linux](https://docs.microsoft.com/dotnet/core/install/) are provided for supported releases in [.NET documentation](https://docs.microsoft.com/dotnet).
+Concise install instructions are provided in this document and may be augmented in [release notes](README.md) for a given update. Complete [.NET installation instructions for Windows, macOS, and Linux](https://learn.microsoft.com/dotnet/core/install/) are provided for supported releases in [.NET documentation](https://learn.microsoft.com/dotnet).
 
 Operating system specific instructions:
 
@@ -8,8 +8,35 @@ Operating system specific instructions:
 - [macOS](install-macos.md)
 - [Windows](install-windows.md)
 
- Install .NET Multi-platform App UI Workloads: 
-- [MAUI](install-maui.md)
+## [Using dotnet-install-scripts](https://learn.microsoft.com/dotnet/core/tools/dotnet-install-script)
+
+### Install the latest preview version of the 7.0.1xx SDK to the specified location
+
+Windows:
+
+```console
+./dotnet-install.ps1 -Channel 7.0.1xx -Quality preview -InstallDir C:\cli
+```
+
+macOS/Linux:
+
+```console
+./dotnet-install.sh --channel 7.0.1xx --quality preview --install-dir ~/cli
+```
+
+### Install the latest preview version of the 7.0.0 runtime to the specified location
+
+Windows:
+
+```console
+.\.dotnet\dotnet-install.ps1 -Channel 7.0 -Runtime dotnet -Quality preview -InstallDir c:\cli
+```
+
+macOs/Linux:
+
+```console
+./dotnet-install.sh --runtime dotnet --channel 7.0 --quality preview --install-dir ~/cli
+```
 
 ## Distributions
 
@@ -28,7 +55,7 @@ Download links are provided for each of the distributions at:
 - [Microsoft .NET website](https://dotnet.microsoft.com/download/dotnet/7.0)
 - [.NET 7 release notes](README.md)
 
-[Container images](https://hub.docker.com/r/microsoft/dotnet/) are provided for Windows (Nano Server, and Server Core) and Linux (Alpine, Debian, and Ubuntu).
+[Container images](https://hub.docker.com/_/microsoft-dotnet) are provided for Windows (Nano Server, and Server Core) and Linux (Alpine, Debian, and Ubuntu).
 
 ## What's installed?
 
@@ -37,32 +64,32 @@ You can determine what is installed on your machine (assuming .NET is installed)
 ```console
 C:\>dotnet --info
 .NET SDK (reflecting any global.json):
- Version:   7.0.100-preview.1.22110.4
- Commit:    1a9103db2d
+Version:   7.0.100-rc.2.22477.23
+ Commit:    0a5360315a
 
 Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.17763
- OS Platform: Windows
- RID:         win10-x64
- Base Path:   C:\Program Files\dotnet\sdk\7.0.100-preview.1.22101.1\
+ OS Name:     Mac OS X
+ OS Version:  12.6
+ OS Platform: Darwin
+ RID:         osx.12-x64
+ Base Path:   /usr/local/share/dotnet/x64/sdk/7.0.100-rc.2.22477.23/
 
-Host (useful for support):
-  Version: 7.0.100-preview.1.22110.4
-  Commit:  3eaf1f316b
+Host:
+  Version:      7.0.0-rc.2.22472.3
+  Architecture: x64
+  Commit:       550605cc93
 
 .NET SDKs installed:
-  7.0.100-preview.1.22110.4 [C:\Program Files\dotnet\sdk]
+  7.0.100-rc.2.22477.23 [/usr/local/share/dotnet/x64/sdk]
 
 .NET runtimes installed:
-  Microsoft.AspNetCore.App 7.0.100-preview.1.22081.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 7.0.0-preview.1.21377.19 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 7.0.0-preview.1.22077.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.AspNetCore.App 7.0.0-rc.2.22476.2 [/usr/local/share/dotnet/x64/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 7.0.0-rc.2.22472.3 [/usr/local/share/dotnet/x64/shared/Microsoft.NETCore.App]
 ```
 
 If you have the .NET SDK installed, you can also use `dotnet --version` as demonstrated in the following example:
 
 ```console
 C:\>dotnet --version
-7.0.100-preview.1.22110.4
+7.0.100-rc.2.22477.23
 ```
