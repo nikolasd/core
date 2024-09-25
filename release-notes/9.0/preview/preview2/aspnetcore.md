@@ -1,4 +1,4 @@
-# ASP.NET Core updates in .NET 9 Preview 2
+# ASP.NET Core in .NET 9 Preview 2 Release Notes
 
 Here's a summary of what's new in ASP.NET Core in this preview release:
 
@@ -9,7 +9,7 @@ Here's a summary of what's new in ASP.NET Core in this preview release:
 
 ASP.NET Core updates in .NET 9 Preview 2:
 
-- [Release notes](https://github.com/dotnet/core/blob/main/release-notes/9.0/preview/preview2/aspnetcore.md) 
+- [Discussion](https://github.com/dotnet/aspnetcore/discussions/54503)
 - [What's new in ASP.NET Core in .NET 9](https://learn.microsoft.com/aspnet/core/release-notes/aspnetcore-9.0) documentation.
 - [Breaking changes](https://docs.microsoft.com/dotnet/core/compatibility/9.0#aspnet-core)
 - [Roadmap](https://aka.ms/aspnet/roadmap)
@@ -17,7 +17,7 @@ ASP.NET Core updates in .NET 9 Preview 2:
 .NET 9 Preview 2:
 
 - [Discussion](https://aka.ms/dotnet/9/preview2)
-- [Release notes](https://github.com/dotnet/core/blob/main/release-notes/9.0/preview/preview2/README.md)
+- [Release notes](README.md)
 
 ## Blazor component constructor injection
 
@@ -123,3 +123,4 @@ Thank you contributors! ❤️
 - [satma0745](https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged+milestone%3A9.0-preview2+author%3Asatma0745)
 - [Kahbazi](https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged+milestone%3A9.0-preview2+author%3AKahbazi)
 - [evgenykotkov](https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged+milestone%3A9.0-preview2+author%3Aevgenykotkov)
+- [tmds](https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged+milestone%3A9.0-preview2+author%3Atmds)
